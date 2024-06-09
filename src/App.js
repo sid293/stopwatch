@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   let [Minuites, setMinuites] = useState(0);
   let [StartButtonStatus, setStartButtonStatus] = useState("Start");
-  let [Seconds, setSeconds] = useState(55);
+  let [Seconds, setSeconds] = useState(0);
   let [Value, setValue] = useState(null);
 
   let startTimer = ()=>{
